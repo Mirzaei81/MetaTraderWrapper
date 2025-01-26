@@ -1,0 +1,7 @@
+daphne -p 8000 MetaCopy.asgi:application
+
+celery -A MetaCopy  worker -l INFO --pool=solo --without-mingle
+
+celery -A MetaCopy beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler
+
+python -m pip install -r requirements.txt

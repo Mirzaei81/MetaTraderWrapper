@@ -1,0 +1,45 @@
+{
+    "lang":"en",
+    "signup":{
+        "title":"Welcome to MetaCopy",
+        "username":"Username",
+        "real_name":"Full Name",
+        "phone":"Phone Number",
+        "phone_placeholder":"09123456789",
+        "bank":"Bank Number",
+        "password":"Password",
+        "password2":"Confirm Password",
+        "btn":"Signup  →",
+        "btn2":"Signup",
+        "loading":"loading",
+        "otp":"enter the code sent to your phone",
+        "submit_otp":"submit",
+        "referer":"Referer",
+        "referer_placeholder":"Referer",
+        "errors":{
+            "password_length":"password must be 8 or more characters",
+            "password_repeat":"passwords do not match",
+            "not_checked":"accept terms and conditions",
+            "phone_format":"wrong phone format, use 09xxxxxxxxx"
+        }
+    },
+    "login":{
+        "title":"Login to  MetaCopy",
+        "btn":"Login  →",
+        "btn2":"Login",
+        "errors":{
+            "captcha":"please solve captcha",
+            "small_username" : "username must be more than 3 characters"
+        }
+    },
+    "start":"Start Trading",
+
+    "writer": "Haruki Murakami",
+    "book":"Norwegian Wood",
+    "quote":"If you only read the books that everyone else is reading, you can only think what everyone else is thinking. ",
+
+    "form": {
+        "logged":"you are already logged in"
+    },
+    "terms":"accept terms and conditions"
+}

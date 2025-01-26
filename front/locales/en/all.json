@@ -1,0 +1,32 @@
+{
+    "lang":"en",
+    "nav": {
+        "message": "Messages",
+        "history": "History",
+        "trade": "Trades",
+        "chart": "Chart",
+        "price": "Price"
+    },
+    "footer":{
+        "address": "Iran Tehran",
+        "contact": "Contact",
+        "copyright": "CopyRight 2024",
+        "creator": "made with ❤️ by Farid",
+        "map": "Site Map",
+        "faq": "FAQs",
+        "about": "About Us",
+        "privacy": "Privacy Policy",
+        "terms": "Terms and Conditions",
+        "refund": "Refund Policy",
+        "social": "Social Media",
+        "insta": "Instagram",
+        "tel": "Telegram"
+    },
+    "locale":{
+        "lang":"language"
+    },
+    "links":{
+        "home":"home",
+        "payment":"payment"
+    }
+}

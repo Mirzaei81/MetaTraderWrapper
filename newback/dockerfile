@@ -1,0 +1,16 @@
+# Use the official Python image from the Docker Hub
+FROM tobix/wine:stable
+# Set the working directory in the container
+WORKDIR /app
+RUN apt-get update &&  apt-get install wget -y  
+RUN wget https://download.mql5.com/cdn/web/metaquotes.software.corp/mt5/mt5ubuntu.sh ; chmod +x mt5ubuntu.sh ; ./mt5ubuntu.sh
+# Copy the requirements file into the container
+COPY requirements.txt /app/
+# Install the required dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+# Copy the rest of the application code into the container
+COPY . /app
+# Expose the port Daphne will run on
+EXPOSE 8000
+# Set the command to run Daphne with your ASGI application
+CMD ["entrypoint.sh"]

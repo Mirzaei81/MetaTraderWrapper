@@ -1,0 +1,25 @@
+{
+    "lang":"en",
+    "card": {
+        "title": "Payment method",
+        "number": "Card Number",
+        "sample_number":"●●●● ●●●● ●●●● ●●●●",
+        "name":"full name",
+        "sample_name":"enter your name",
+        "amount": "amount",
+        "tax": "tax",
+        "email": "Email",
+        "sample_email":"me@email.com",
+        "dollar":"dollar price",
+        "receive":"dollars received",
+        "unit":"rial",
+        "pay":"pay",
+        "total": "total recieve in dollar",
+        "idpay": "idpay"
+    },
+    "errors":{
+        "amount":"minimum amount is 1000000 rial",
+        "api":"payment api is not working, please try again later",
+        "payment":"error in payment check, please contact support with your trans_id and id_get to check your payment"
+    }
+}

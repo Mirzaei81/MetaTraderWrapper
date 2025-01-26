@@ -1,0 +1,51 @@
+{
+    "lang":"en",
+    "0":{
+        "title":"Welcome to MetaCopy",
+        "content":"Dear {username} ,Your account is verified. now you can send message to admin to increase your balance and start trading"
+    },
+    "1":{
+        "title":"Trade opened",
+        "content":"Your Trade opened at {trade_price} with ticket {trade_ticket} ,you can check it in you open trades."
+    },
+    "2":{
+        "title":"Trade closed",
+        "content":"Your Trade closed at {trade_exit} with ticket {trade_ticket}. your profit is {trade_profit}"
+    },
+    "3":{
+        "title":"Trade modified",
+        "content":"Trade {trade_ticket} modified to sl {trade_sl},  tp {trade_tp}"
+    },
+    "4":{
+        "title":"Order created",
+        "content":"Order {order_id} Created at {order_price} "
+    },
+    "5":{
+        "title":"Order closed",
+        "content":"Order closed"
+    },
+    "10":{
+        "title":"",
+        "content":""
+    },
+    "20":{
+        "title":"Balance increased",
+        "content":"your balance increase by {increase}$. current balance is {balance}$"
+    },
+    "21":{
+        "title":"Withdraw accept",
+        "content":"Your Withdraw request for {withdraw_amount}$ is accepted and the amount will soon transfered to your bank account"
+    },
+    "22":{
+        "title":"Withdraw completed",
+        "content":"withdrawal successful. {withdraw_rial} Rial transfered to your bank account"
+    },
+    "23":{
+        "title":"Withdraw rejected",
+        "content":"withdrawal rejected."
+    },
+    "99":{
+        "title":"Account Liquidated",
+        "content":"We are sorry to tell you your account is liquidate. you can no longer trade unless you increase your balance"
+    }
+}

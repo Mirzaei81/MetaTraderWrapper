@@ -1,0 +1,8 @@
+{
+    "rules": {
+      "no-unused-vars": "warn",  // برای پیدا کردن متغیرهای استفاده‌نشده
+      "react/jsx-no-unused-vars": "warn",  // برای پیدا کردن propsهای استفاده‌نشده
+      "no-unused-expressions": "warn"  // برای پیدا کردن عبارات استفاده‌نشده
+    }
+  }
+  

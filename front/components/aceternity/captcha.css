@@ -1,0 +1,35 @@
+.rnc {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 285px;
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.rnc-column {
+  display: hidden;
+  width: 0px;
+  visibility: hidden;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 0 0 0px;
+  background-color: aqua;
+}
+.rnc-canvas {
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.rnc-input {
+  border: none;
+  padding: 10px 6px;
+  font-size: inherit;
+  font-family: inherit;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #252525;
+}

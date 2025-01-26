@@ -1,0 +1,45 @@
+{
+    "lang":"fa",
+    "signup":{
+        "title":"به MetaCopy خوش آمدید",
+        "username":"نام مستعار",
+        "real_name":"اسم واقعی",
+        "phone":"موبایل",
+        "phone_placeholder":"09123456789",
+        "bank":"شماره حساب",
+        "password":"رمز",
+        "password2":"تکرار رمز",
+        "btn":"ثبت نام  ←",
+        "btn2":"ثبت نام",
+        "loading":"در حال پردازش",
+        "otp":"رمز ارسال شده به تلفن خود را وارد کنید",
+        "submit_otp":"تایید",
+        "referer":"رفرال",
+        "referer_placeholder":"کد رفرال",
+        "errors":{
+            "password_length":"رمز باید حداقل 8 کاراکتر باشد",
+            "password_repeat":"تکرار رمز مشابه نیست",
+            "not_checked":"شرایط و ضوابط را قبول کنید",
+            "phone_format":" لطفا به فرمت 09xxxxxxxxx وارد کنید"
+        }
+    },
+    "login":{
+        "title":"ورود به حساب MetaCopy",
+        "btn":"ورود  ←",
+        "btn2":"ورود",
+        "errors":{
+            "captcha":"لطفا کپچا را حل کنید",
+            "small_username" : "اسم مستعار باید حداقل 3 کاراکتر باشد"
+        }
+    },
+    "start":"شروع معامله",
+
+    "writer": "Haruki Murakami",
+    "book":"Norwegian Wood",
+    "quote":"If you only read the books that everyone else is reading, you can only think what everyone else is thinking. ",
+    "form": {
+        "logged":"شما وارد حساب خود شده اید."
+    },
+    "terms":"شرایط و قوانین استفاده از خدمات را می‌پذیرم."
+    
+}

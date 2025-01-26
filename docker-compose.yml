@@ -1,0 +1,28 @@
+version: '2'
+services:
+  api.1003100.site:
+    build: ./front
+    hostname: api.1003100.site
+    ports:
+      - 3000:3000
+  nginx:
+    image: nginx
+    volumes:
+      - ./nginx.cong:/etc/nginx/nginx.conf
+    ports:
+      - "80:80"
+    depends_on:
+      - api.1003100.site
+      - django
+  postgress:
+    container_name: postgres
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Ab123456
+      POSTGRES_DB: metacopy_db
+  django:
+    build: ./newback
+    hostname : django
+    ports:
+      - "8000:8000"
